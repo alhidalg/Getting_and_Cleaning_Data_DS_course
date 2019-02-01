@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>getting-and-cleaning-data-course-project/README.md at master · spujadas/getting-and-cleaning-data-course-project · GitHub</title>
+  <title>getting-and-cleaning-data-course-project/CodeBook.md at master · spujadas/getting-and-cleaning-data-course-project · GitHub</title>
     <meta name="description" content="Coursera Getting and Cleaning Data course project. Contribute to spujadas/getting-and-cleaning-data-course-project development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="9861:0D50:376B0A:671421:5C54C840" data-pjax-transient>
+  <meta name="request-id" content="9861:0D50:3764E2:6704E9:5C54C80E" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9861:0D50:376B0A:671421:5C54C840" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9861:0D50:3764E2:6704E9:5C54C80E" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="OWI0ZGY2ZmI2ZmQ5MDlhZjM4YzE3ZWQxNDUyZGFiOTUxNzBhMDczYmJlM2Q5YzE3NWI4NzVjNTM0MzQzYzM1ZXx7InJlbW90ZV9hZGRyZXNzIjoiMTkwLjEwNi43My4xMSIsInJlcXVlc3RfaWQiOiI5ODYxOjBENTA6Mzc2QjBBOjY3MTQyMTo1QzU0Qzg0MCIsInRpbWVzdGFtcCI6MTU0OTA2MDE2OSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="ZjNkY2E2ZTA1MzZlODJlOThiODYzMjA5Mjk0NmQwZTljZDE3YjllOWEzZGExZTA0ODI0NGJkZWUwYTVmYTJjNHx7InJlbW90ZV9hZGRyZXNzIjoiMTkwLjEwNi43My4xMSIsInJlcXVlc3RfaWQiOiI5ODYxOjBENTA6Mzc2NEUyOjY3MDRFOTo1QzU0QzgwRSIsInRpbWVzdGFtcCI6MTU0OTA2MDEzMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="930566" /><meta name="octolytics-dimension-user_login" content="spujadas" /><meta name="octolytics-dimension-repository_id" content="50292410" /><meta name="octolytics-dimension-repository_nwo" content="spujadas/getting-and-cleaning-data-course-project" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="50292410" /><meta name="octolytics-dimension-repository_network_root_nwo" content="spujadas/getting-and-cleaning-data-course-project" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/spujadas/getting-and-cleaning-data-course-project/blob/master/CodeBook.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -255,7 +255,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=7zhLeqwbdmx+Q+A0vW/L/1rZanGSN/9zDt+pHMfIPNM8dfD2l7cCN3upjfEKYjXX2Es/PMYxSe78bHwiL+q/fQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=aRfivJABzOC3XnrMJHkAXeu+7N1ons1slDX+Qwgehby6Wlkwq624u7K0FwmTdP51aSy5kDyYe/Fmhit94DwGEg=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -380,7 +380,7 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fspujadas%2Fgetting-and-cleaning-data-course-project%2Fblob%2Fmaster%2FREADME.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2Fspujadas%2Fgetting-and-cleaning-data-course-project%2Fblob%2Fmaster%2FCodeBook.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
           <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
       </div>
     </div>
@@ -523,14 +523,14 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/spujadas/getting-and-cleaning-data-course-project/blob/55b3ec72d228d9b60c69aa27f6fe36de48f881c1/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/spujadas/getting-and-cleaning-data-course-project/blob/55b3ec72d228d9b60c69aa27f6fe36de48f881c1/CodeBook.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:cdeb9b96ecf9dd0e4a00ca9b2a69fbc9 -->
+    <!-- blob contrib key: blob_contributors:v21:6c11774f02eb02f0d2615db363206f72 -->
 
         <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IrVnXzY5JEznMERWnS3asD7jTyVtuWkFRWoGUlLzysFu70aEMaJqJgBAFFLYWryU4E8A9JXK1VlrzcwMJxTZpA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lICb+hNcnULqxkOAwSHy91IWcldIq5pCENiDduy7SuPY2rohFMfTKA22E4SEVpTTjLo9hrDYJh4+f0komVxZhg==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
@@ -545,7 +545,7 @@
     <div class="file-navigation">
       
 <div class="select-menu branch-select-menu js-menu-container js-select-menu float-left js-load-contents"
-  data-contents-url="/spujadas/getting-and-cleaning-data-course-project/ref-list/master/README.md?source_action=show&amp;source_controller=blob">
+  data-contents-url="/spujadas/getting-and-cleaning-data-course-project/ref-list/master/CodeBook.md?source_action=show&amp;source_controller=blob">
   <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
     
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
@@ -575,21 +575,59 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/spujadas/getting-and-cleaning-data-course-project"><span>getting-and-cleaning-data-course-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/spujadas/getting-and-cleaning-data-course-project"><span>getting-and-cleaning-data-course-project</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
       </div>
     </div>
 
 
-    <include-fragment src="/spujadas/getting-and-cleaning-data-course-project/contributors/master/README.md" class="commit-tease commit-loader">
+    
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/spujadas/getting-and-cleaning-data-course-project/commit/55b3ec72d228d9b60c69aa27f6fe36de48f881c1" data-pjax>
+          55b3ec7
+        </a>
+        <relative-time datetime="2016-01-24T14:56:11Z">Jan 24, 2016</relative-time>
+      </span>
       <div>
-        Fetching contributors&hellip;
+        <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=930566" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spujadas"><img class="avatar" src="https://avatars3.githubusercontent.com/u/930566?s=40&amp;v=4" width="20" height="20" alt="@spujadas" /></a>
+        <a class="user-mention" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=930566" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/spujadas">spujadas</a>
+          <a data-pjax="true" title="first commit" class="message" href="/spujadas/getting-and-cleaning-data-course-project/commit/55b3ec72d228d9b60c69aa27f6fe36de48f881c1">first commit</a>
       </div>
 
-      <div class="commit-tease-contributors">
-          <img alt="" class="loader-loading float-left" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
-        <span class="loader-error">Cannot retrieve contributors at this time</span>
-      </div>
-</include-fragment>
+    <div class="commit-tease-contributors">
+      
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+  <summary
+      class="btn-link"
+      aria-haspopup="dialog"
+      
+      
+      >
+    
+    <span><strong>1</strong> contributor</span>
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <h3 class="Box-title">Users who have contributed to this file</h3>
+    </div>
+    
+        <ul class="list-style-none overflow-auto">
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/spujadas">
+                <img class="avatar mr-2" alt="" src="https://avatars3.githubusercontent.com/u/930566?s=40&amp;v=4" width="20" height="20" />
+                spujadas
+</a>            </li>
+        </ul>
+
+  </details-dialog>
+</details>
+      
+    </div>
+  </div>
+
 
 
 
@@ -601,9 +639,9 @@
 
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/spujadas/getting-and-cleaning-data-course-project/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/raw/master/CodeBook.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/spujadas/getting-and-cleaning-data-course-project/blame/master/CodeBook.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/spujadas/getting-and-cleaning-data-course-project/commits/master/CodeBook.md">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -624,45 +662,298 @@
   </div>
 
   <div class="file-info">
-      39 lines (26 sloc)
+      232 lines (149 sloc)
       <span class="file-info-divider"></span>
-    3.97 KB
+    10.9 KB
   </div>
 </div>
 
       
   <div id="readme" class="readme blob instapaper_body js-code-block-container">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-coursera-getting-and-cleaning-data-course-project" class="anchor" aria-hidden="true" href="#coursera-getting-and-cleaning-data-course-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coursera <em>Getting and Cleaning Data</em> course project</h1>
-<p>One of the most exciting areas in all of data science right now is wearable computing - see for example <a href="http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/" rel="nofollow">this article</a>. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.</p>
-<p>In this project, data collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone was retrieved, worked with, and cleaned, to prepare a tidy data that can be used for later analysis.</p>
-<p>This repository contains the following files:</p>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-code-book-for-coursera-getting-and-cleaning-data-course-project" class="anchor" aria-hidden="true" href="#code-book-for-coursera-getting-and-cleaning-data-course-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code book for Coursera <em>Getting and Cleaning Data</em> course project</h1>
+<p>The data set that this code book pertains to is located in the <code>tidy_data.txt</code> file of this repository.</p>
+<p>See the <code>README.md</code> file of this repository for background information on this data set.</p>
+<p>The structure of the data set is described in the <a href="#data">Data</a> section, its variables are listed in the <a href="#variables">Variables</a> section, and the transformations that were carried out to obtain the data set based on the source data are presented in the <a href="#transformations">Transformations</a> section.</p>
+<h2><a id="user-content-data-" class="anchor" aria-hidden="true" href="#data-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data <a name="user-content-data"></a></h2>
+<p>The <code>tidy_data.txt</code> data file is a text file, containing space-separated values.</p>
+<p>The first row contains the names of the variables, which are listed and described in the <a href="#variables">Variables</a> section, and the following rows contain the values of these variables.</p>
+<h2><a id="user-content-variables-" class="anchor" aria-hidden="true" href="#variables-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variables <a name="user-content-variables"></a></h2>
+<p>Each row contains, for a given subject and activity, 79 averaged signal measurements.</p>
+<h3><a id="user-content-identifiers-" class="anchor" aria-hidden="true" href="#identifiers-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Identifiers <a name="user-content-identifiers"></a></h3>
 <ul>
-<li><code>README.md</code>, this file, which provides an overview of the data set and how it was created.</li>
-<li><code>tidy_data.txt</code>, which contains the data set.</li>
-<li><code>CodeBook.md</code>, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).</li>
-<li><code>run_analysis.R</code>, the R script that was used to create the data set (see the <a href="#creating-data-set">Creating the data set</a> section below)</li>
-</ul>
-<h2><a id="user-content-study-design-" class="anchor" aria-hidden="true" href="#study-design-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Study design <a name="user-content-study-design"></a></h2>
-<p>The source data set that this project was based on was obtained from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#" rel="nofollow">Human Activity Recognition Using Smartphones Data Set</a>, which describes how the data was initially collected as follows:</p>
-<blockquote>
-<p>The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.</p>
-<p>The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.</p>
-</blockquote>
-<p>Training and test data were first merged together to create one data set, then the measurements on the mean and standard deviation were extracted for each measurement (79 variables extracted from the original 561), and then the measurements were averaged for each subject and activity, resulting in the final data set.</p>
-<h2><a id="user-content-creating-the-data-set-" class="anchor" aria-hidden="true" href="#creating-the-data-set-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating the data set <a name="user-content-creating-data-set"></a></h2>
-<p>The R script <code>run_analysis.R</code> can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):</p>
+<li>
+<p><code>subject</code></p>
+<p>Subject identifier, integer, ranges from 1 to 30.</p>
+</li>
+<li>
+<p><code>activity</code></p>
+<p>Activity identifier, string with 6 possible values:</p>
 <ul>
-<li>Download and unzip source data if it doesn't exist.</li>
-<li>Read data.</li>
-<li>Merge the training and the test sets to create one data set.</li>
-<li>Extract only the measurements on the mean and standard deviation for each measurement.</li>
-<li>Use descriptive activity names to name the activities in the data set.</li>
-<li>Appropriately label the data set with descriptive variable names.</li>
-<li>Create a second, independent tidy set with the average of each variable for each activity and each subject.</li>
-<li>Write the data set to the <code>tidy_data.txt</code> file.</li>
+<li><code>WALKING</code>: subject was walking</li>
+<li><code>WALKING_UPSTAIRS</code>: subject was walking upstairs</li>
+<li><code>WALKING_DOWNSTAIRS</code>: subject was walking downstairs</li>
+<li><code>SITTING</code>: subject was sitting</li>
+<li><code>STANDING</code>: subject was standing</li>
+<li><code>LAYING</code>: subject was laying</li>
 </ul>
-<p>The <code>tidy_data.txt</code> in this repository was created by running the <code>run_analysis.R</code> script using R version 3.2.2 (2015-08-14) on Windows 8.1 64-bit edition.</p>
-<p>This script requires the <code>dplyr</code> package (version 0.4.3 was used).</p>
+</li>
+</ul>
+<h3><a id="user-content-average-of-measurements-" class="anchor" aria-hidden="true" href="#average-of-measurements-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Average of measurements <a name="user-content-average-measurements"></a></h3>
+<p>All measurements are floating-point values, normalised and bounded within [-1,1].</p>
+<p>Prior to normalisation, acceleration measurements (variables containing <code>Accelerometer</code>) were made in <em>g</em>'s (9.81 m.s⁻²) and gyroscope measurements (variables containing <code>Gyroscope</code>) were made in radians per second (rad.s⁻¹).</p>
+<p>Magnitudes of three-dimensional signals (variables containing <code>Magnitude</code>) were calculated using the Euclidean norm.</p>
+<p>The measurements are classified in two domains:</p>
+<ul>
+<li>
+<p>Time-domain signals (variables prefixed by <code>timeDomain</code>), resulting from the capture of accelerometer and gyroscope raw signals.</p>
+</li>
+<li>
+<p>Frequency-domain signals (variables prefixed by <code>frequencyDomain</code>), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.</p>
+</li>
+</ul>
+<h4><a id="user-content-time-domain-signals" class="anchor" aria-hidden="true" href="#time-domain-signals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Time-domain signals</h4>
+<ul>
+<li>
+<p>Average time-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerMeanX</code></li>
+<li><code>timeDomainBodyAccelerometerMeanY</code></li>
+<li><code>timeDomainBodyAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerStandardDeviationX</code></li>
+<li><code>timeDomainBodyAccelerometerStandardDeviationY</code></li>
+<li><code>timeDomainBodyAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain gravity acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerMeanX</code></li>
+<li><code>timeDomainGravityAccelerometerMeanY</code></li>
+<li><code>timeDomainGravityAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerStandardDeviationX</code></li>
+<li><code>timeDomainGravityAccelerometerStandardDeviationY</code></li>
+<li><code>timeDomainGravityAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkMeanX</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMeanY</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationX</code></li>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationY</code></li>
+<li><code>timeDomainBodyAccelerometerJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeMeanX</code></li>
+<li><code>timeDomainBodyGyroscopeMeanY</code></li>
+<li><code>timeDomainBodyGyroscopeMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeStandardDeviationX</code></li>
+<li><code>timeDomainBodyGyroscopeStandardDeviationY</code></li>
+<li><code>timeDomainBodyGyroscopeStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkMeanX</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMeanY</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationX</code></li>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationY</code></li>
+<li><code>timeDomainBodyGyroscopeJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body acceleration:</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerMagnitudeMean</code></li>
+<li><code>timeDomainBodyAccelerometerMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of gravity acceleration:</p>
+<ul>
+<li><code>timeDomainGravityAccelerometerMagnitudeMean</code></li>
+<li><code>timeDomainGravityAccelerometerMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time):</p>
+<ul>
+<li><code>timeDomainBodyAccelerometerJerkMagnitudeMean</code></li>
+<li><code>timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body angular velocity:</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeMagnitudeMean</code></li>
+<li><code>timeDomainBodyGyroscopeMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+<li>
+<p>Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):</p>
+<ul>
+<li><code>timeDomainBodyGyroscopeJerkMagnitudeMean</code></li>
+<li><code>timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation</code></li>
+</ul>
+</li>
+</ul>
+<h4><a id="user-content-frequency-domain-signals" class="anchor" aria-hidden="true" href="#frequency-domain-signals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frequency-domain signals</h4>
+<ul>
+<li>
+<p>Average frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMeanX</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanY</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyAccelerometerStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body acceleration in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyAccelerometerMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMeanX</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanY</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanZ</code></li>
+</ul>
+</li>
+<li>
+<p>Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationX</code></li>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationY</code></li>
+<li><code>frequencyDomainBodyGyroscopeStandardDeviationZ</code></li>
+</ul>
+</li>
+<li>
+<p>Weighted average of the frequency components of the frequency-domain body angular velocity in the X, Y and Z directions:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyX</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyY</code></li>
+<li><code>frequencyDomainBodyGyroscopeMeanFrequencyZ</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration:</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyAccelerometerMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time):</p>
+<ul>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity:</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyGyroscopeMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+<li>
+<p>Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):</p>
+<ul>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeMean</code></li>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation</code></li>
+<li><code>frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency</code></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-transformations-" class="anchor" aria-hidden="true" href="#transformations-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Transformations <a name="user-content-transformations"></a></h2>
+<p>The zip file containing the source data is located at <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" rel="nofollow">https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>.</p>
+<p>The following transformations were applied to the source data:</p>
+<ol>
+<li>The training and test sets were merged to create one data set.</li>
+<li>The measurements on the mean and standard deviation (i.e. signals containing the strings <code>mean</code> and <code>std</code>) were extracted for each measurement, and the others were discarded.</li>
+<li>The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names (see <a href="#identifiers">Identifiers</a> section).</li>
+<li>The variable names were replaced with descriptive variable names (e.g. <code>tBodyAcc-mean()-X</code> was expanded to <code>timeDomainBodyAccelerometerMeanX</code>), using the following set of rules:
+<ul>
+<li>Special characters (i.e. <code>(</code>, <code>)</code>, and <code>-</code>) were removed</li>
+<li>The initial <code>f</code> and <code>t</code> were expanded to <code>frequencyDomain</code> and <code>timeDomain</code> respectively.</li>
+<li><code>Acc</code>, <code>Gyro</code>, <code>Mag</code>, <code>Freq</code>, <code>mean</code>, and <code>std</code> were replaced with <code>Accelerometer</code>, <code>Gyroscope</code>, <code>Magnitude</code>, <code>Frequency</code>, <code>Mean</code>, and <code>StandardDeviation</code> respectively.</li>
+<li>Replaced (supposedly incorrect as per source's <code>features_info.txt</code> file) <code>BodyBody</code> with <code>Body</code>.</li>
+</ul>
+</li>
+<li>From the data set in step 4, the final data set was created with the average of each variable for each activity and each subject.</li>
+</ol>
+<p>The collection of the source data and the transformations listed above were implemented by the <code>run_analysis.R</code> R script (see <code>README.md</code> file for usage instructions).</p>
 </article>
   </div>
 
@@ -694,7 +985,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.18349s from unicorn-67748cccbf-8xkz2">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.27695s from unicorn-598cf8cf5c-rzlj8">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
